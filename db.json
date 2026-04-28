@@ -1,0 +1,33 @@
+{
+  "problems": [
+    {
+      "id": "0217",
+      "name": "Contains Duplicate",
+      "patterns": ["hashing"],
+      "difficulty": "easy",
+      "status": "solved",
+      "followups": ["0219", "0220"],
+      "notes": "Foundational duplicate detection; solved today",
+      "last_seen": "2026-04-27",
+      "file": "problems/0217-contains-duplicate.md"
+    },
+    {
+      "id": "0442",
+      "name": "Find All Duplicates in an Array",
+      "patterns": ["hashing"],
+      "difficulty": "medium",
+      "status": "solved",
+      "followups": ["0448", "0041"],
+      "notes": "In-place duplicate detection for [1,n] arrays",
+      "last_seen": "2026-04-27",
+      "file": "problems/0442-find-all-duplicates-in-array.md"
+    }
+  ],
+  "patterns": [
+    {
+      "name": "hashing",
+      "file": "patterns/hashing.md",
+      "problems": ["0217", "0442"]
+    }
+  ]
+}
