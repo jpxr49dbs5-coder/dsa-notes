@@ -6,7 +6,8 @@ Master table of contents for all DSA patterns. Use this to navigate the pattern 
 
 | Pattern | Problems | Difficulty Range | Best For |
 |---------|----------|------------------|----------|
-| [Hashing](hashing.md) | 6 | Easy–Hard | Duplicate detection, index-as-hash |
+| [Hashing](hashing.md) | 9 | Easy–Hard | Duplicate detection, index-as-hash |
+| [Sliding Window](sliding-window.md) | 3 | Medium–Hard | Subarray/substring optimization |
 
 ---
 

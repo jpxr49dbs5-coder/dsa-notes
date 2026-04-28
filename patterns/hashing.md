@@ -24,6 +24,9 @@ The hashing pattern progresses through duplicate detection and variant handling:
 | 0442 | [Find All Duplicates in an Array](../problems/0442-find-all-duplicates-in-an-array.md) | Medium | ✅ | In-place marking, [1,n] constraint |
 | 0448 | [Find All Numbers Disappeared in an Array](../problems/0448-find-all-numbers-disappeared.md) | Easy | ⏳ | Missing numbers via sign-marking |
 | 0041 | [First Missing Positive](../problems/0041-first-missing-positive.md) | Hard | ⏳ | Placement + marking, harder variant |
+| 0242 | [Valid Anagram](../problems/0242-valid-anagram.md) | Easy | ✅ | Frequency counting for strings |
+| 0049 | [Group Anagrams](../problems/0049-group-anagrams.md) | Medium | ⏳ | Grouping with sorted keys |
+| 0383 | [Ransom Note](../problems/0383-ransom-note.md) | Easy | ⏳ | One-directional frequency check |
 
 ## Template for New Problem
 

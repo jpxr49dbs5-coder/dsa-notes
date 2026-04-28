@@ -21,13 +21,84 @@
       "notes": "In-place duplicate detection for [1,n] arrays",
       "last_seen": "2026-04-27",
       "file": "problems/0442-find-all-duplicates-in-array.md"
+    },
+    {
+      "id": "0242",
+      "name": "Valid Anagram",
+      "patterns": ["hashing"],
+      "difficulty": "easy",
+      "status": "solved",
+      "followups": ["0049", "0383", "0567", "0438", "0076"],
+      "notes": "Character frequency counting; solved today",
+      "last_seen": "2026-04-27",
+      "file": "problems/0242-valid-anagram.md"
+    },
+    {
+      "id": "0049",
+      "name": "Group Anagrams",
+      "patterns": ["hashing"],
+      "difficulty": "medium",
+      "status": "queued",
+      "followups": [],
+      "notes": "Grouping anagrams using hash keys",
+      "last_seen": null,
+      "file": "problems/0049-group-anagrams.md"
+    },
+    {
+      "id": "0383",
+      "name": "Ransom Note",
+      "patterns": ["hashing"],
+      "difficulty": "easy",
+      "status": "queued",
+      "followups": [],
+      "notes": "One-directional frequency check",
+      "last_seen": null,
+      "file": "problems/0383-ransom-note.md"
+    },
+    {
+      "id": "0567",
+      "name": "Permutation in String",
+      "patterns": ["sliding-window", "hashing"],
+      "difficulty": "medium",
+      "status": "queued",
+      "followups": [],
+      "notes": "Fixed sliding window anagram check",
+      "last_seen": null,
+      "file": "problems/0567-permutation-in-string.md"
+    },
+    {
+      "id": "0438",
+      "name": "Find All Anagrams in a String",
+      "patterns": ["sliding-window", "hashing"],
+      "difficulty": "medium",
+      "status": "queued",
+      "followups": [],
+      "notes": "Fixed window, return all positions",
+      "last_seen": null,
+      "file": "problems/0438-find-all-anagrams-in-a-string.md"
+    },
+    {
+      "id": "0076",
+      "name": "Minimum Window Substring",
+      "patterns": ["sliding-window"],
+      "difficulty": "hard",
+      "status": "queued",
+      "followups": [],
+      "notes": "Variable window minimum substring",
+      "last_seen": null,
+      "file": "problems/0076-minimum-window-substring.md"
     }
   ],
   "patterns": [
     {
       "name": "hashing",
       "file": "patterns/hashing.md",
-      "problems": ["0217", "0442"]
+      "problems": ["0217", "0442", "0242", "0049", "0383"]
+    },
+    {
+      "name": "sliding-window",
+      "file": "patterns/sliding-window.md",
+      "problems": ["0567", "0438", "0076"]
     }
   ]
 }
